@@ -1,0 +1,19 @@
+// .loading-bar {
+//    position: fixed;
+//    top: 0;
+//    left: 0;
+//    height: 3px;
+//    width: 100%;
+//    background-color: #ff0000; /* Màu sắc của thanh loading */
+//    z-index: 9999; /* Đảm bảo thanh loading hiển thị trên cùng của trang */
+//    animation: loading 2s linear infinite; /* Tạo hiệu ứng chạy qua lại */
+// }
+
+// @keyframes loading {
+//    0% {
+//       left: -100%; /* Di chuyển sang trái ngoài màn hình */
+//    }
+//    100% {
+//       left: 100%; /* Di chuyển sang phải ngoài màn hình */
+//    }
+// }

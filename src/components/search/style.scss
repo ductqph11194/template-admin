@@ -1,0 +1,29 @@
+.search {
+   display: flex;
+   align-items: center;
+   border: 0.5px solid lightgray;
+   border-radius: 10px;
+   padding: 10px;
+   padding-right: 40px;
+   transition: all ease-in 0.2s;
+   background: #fafafa;
+   .icon-search {
+      padding-left: 5px;
+   }
+   &:hover {
+      border: 1px solid #5e35b1;
+   }
+   input {
+      padding: 5px 20px;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding-right: 30px;
+
+      &::placeholder {
+         font-size: 14px;
+         font-weight: 400;
+         color: #a1a2a3;
+      }
+   }
+}

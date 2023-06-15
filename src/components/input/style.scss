@@ -1,0 +1,41 @@
+.formLabel {
+   margin: 0;
+   font-weight: 500;
+   font-family: Roboto, sans-serif;
+}
+.formInput {
+   width: 100%;
+   border-radius: 5px;
+   background: #f8fafc !important;
+   border: 1px solid #5e35b1;
+   padding-left: 18px;
+   color: #333333;
+   font-size: 15px;
+   height: 48px;
+   margin: 8px 0;
+   font-family: Roboto, sans-serif;
+   &:focus-visible {
+      outline: 0.3px solid #5e35b1;
+   }
+}
+
+.wrapperFormSelect {
+   display: flex;
+   align-items: center;
+   gap: 3px;
+   margin: 8px 0;
+}
+
+.formSelect {
+   background-color: #f9f9f9;
+   border-radius: 5px;
+   color: #333;
+   padding-left: 5px;
+   position: relative;
+   vertical-align: middle;
+   height: 40px;
+   border: none;
+   border-bottom: 1px solid #bababa;
+   display: inline-block;
+   width: 100%;
+}

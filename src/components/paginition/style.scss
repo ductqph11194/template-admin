@@ -1,0 +1,17 @@
+.ant-pagination {
+   margin-top: 12px;
+   text-align: center;
+   display: block;
+
+   .ant-pagination-item {
+      border: 1px solid #3e4095;
+      font-weight: 600;
+
+      a {
+         color: #afafaf;
+      }
+   }
+   .ant-pagination-item-active a {
+      color: #3e4095;
+   }
+}
